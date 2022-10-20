@@ -232,7 +232,7 @@ footer p {
         width: 115rem;
         position: absolute;
         left: 45vw;
-        overflow: hidden;
+        overflow-x: hidden;
     }
 }
 
@@ -244,6 +244,7 @@ footer p {
     .profile-image {
         width: 126rem;
         left: 45vw;
+        overflow-x: hidden;
     }
 }
 
@@ -268,5 +269,12 @@ footer p {
     .profile-image {
         width: 126rem;
         left: 10vw;
+        overflow-x: hidden;
+    }
+}
+
+@media  screen and (max-width: 600px) {
+    html {
+        font-size: 30%;
     }
 }
