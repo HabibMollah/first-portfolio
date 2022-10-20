@@ -277,4 +277,18 @@ footer p {
     html {
         font-size: 30%;
     }
+    .social-icons {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        gap: 2rem;
+    }
+    .center {
+        text-align: center;
+        grid-column: 1 / span 2;
+    }
+    #btn a {
+        font-size: 1.5rem;
+        padding: 1rem 4rem;
+    }
 }
